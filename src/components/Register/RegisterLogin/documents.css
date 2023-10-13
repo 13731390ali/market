@@ -1,0 +1,30 @@
+.styRow{
+    justify-content: center;
+}
+
+.styRow ul li{
+    list-style: none;
+    line-height: 2.4;
+    color: #737070;
+}
+
+.styImsge img{
+    width: 80%;
+}
+
+@media screen and (max-width: 1020px) {
+    .styRow{
+     margin-top: 25rem;
+    }
+    .ColLog{
+        justify-content: center;
+    }
+
+    .styImsge{
+        text-align: center;
+    }
+
+    .styImsge img{
+        width: 50%;
+    }
+}

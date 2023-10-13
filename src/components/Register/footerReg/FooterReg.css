@@ -1,0 +1,41 @@
+.footerSt{
+    background-color: #061c3f;
+    width: 100%;
+    height: auto;
+    
+}
+
+.footerSt ul{
+  padding: 2px 6rem;
+}
+
+.footerSt ul li{
+    display: inline-block;
+    color: #fff;
+    margin: 5px 30px;
+}
+.ImgLi{
+    width: 10%;
+}
+.footerSt .ImgLi img{
+    width: 100%;
+}
+
+.CopyRi{
+    text-align: justify;
+    color: #fff;
+    margin: auto;
+    padding: 12px 25px;
+}
+
+@media screen and (max-width: 1020px){
+    .footerSt ul li{
+        display: block;
+        color: #fff;
+        /* margin: 5px 30px; */
+    }
+    .footerSt ul{
+        padding:0
+      }
+
+}

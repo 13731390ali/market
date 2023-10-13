@@ -1,0 +1,76 @@
+.ImageHero{
+    width: 100%;
+}
+.ImageHero img{
+    width: 100%;
+}
+
+.HeroText{
+    padding: 20px;
+    width: 80%;
+    
+}
+
+.HeroText h3{
+    margin-bottom: 20px;
+}
+
+.HeroText span{
+    padding: 12px;
+    color: #777575;
+    font-size: 15px;
+}
+
+.heroPosi{
+    position: relative;
+}
+
+.cardPosi{
+    position: absolute;
+    top: 25rem;
+}
+
+
+.stcard img{
+  
+    background-color: #f2f5f8;
+    border-radius: 15px;
+}
+
+.stcard p{
+    color: #6b6666;
+    font-size: 12px;
+    width: 80%;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .HeroText{
+        padding: 20px;
+        width: 100%;
+    }
+    .cardPosi{
+        margin-top: 15rem;
+        }
+    
+    .stcard{
+        width: 16rem;
+        text-align: start;
+    }
+
+  
+    .stcard img{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .stcard h6{
+        text-align: start;
+    }
+    .stcard p{
+        text-align: start;
+    }
+    
+ 
+ }

@@ -1,0 +1,20 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem ;
+    line-height:2;
+   /* justify-content: center; */
+}
+.Login input{
+    border-radius: 5px;
+    border: 1px solid #7a7777;
+    padding: 12px 8px;
+}
+
+.Login p{
+    color: #7a7777;
+}
+
+.Login p a{
+    text-decoration: none;
+}

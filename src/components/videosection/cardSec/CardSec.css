@@ -1,0 +1,45 @@
+.backCard{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 50px;
+    width: 90%;
+    text-align: start;
+}
+
+.backCard img{
+    width: 7rem;
+}
+
+.backCard h6{
+    margin-left: 2ox;
+}
+
+.backCard span{
+    color: #5f5c5c;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+
+    .Image{
+        display: flex;
+        width: 100%;
+    }
+    
+    .TEXT h6{
+    display: flex;
+    width: 100%;
+    }
+    .TEXT span{
+        display: flex;
+        width: 100%;
+    }
+
+    .resColl{
+        text-align: -webkit-center;
+    }
+ }

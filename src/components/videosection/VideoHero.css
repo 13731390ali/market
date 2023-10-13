@@ -1,0 +1,37 @@
+.VideoStyle{
+    margin-top: 25px;
+}
+
+.VideoStyle button{
+    background-color: rgb(0, 209, 112);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+video{
+    width: 50%;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .secSt{
+        margin-top: 70rem;
+        width: 100%;
+    }
+        .VideoStyle{
+            text-align: center;
+        }
+        .VideoStyle h1{
+            margin-bottom: 8rem;
+            font-size: 15px;
+        }
+        video{
+            width: 90%;
+        }
+ 
+ }

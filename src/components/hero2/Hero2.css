@@ -1,0 +1,26 @@
+.Hero2Style{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+.Hero2Style img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .Hero2Style{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .Hero2Style img{
+        width: 100%;
+        border-radius: 10px;
+    }
+ 
+ }
+ 

@@ -1,0 +1,50 @@
+.Cardinfo{
+background-color: rgb(236, 242, 236);
+padding: 50px;
+height: auto;
+width: 100%;
+}
+
+.CardFlex{
+display: flex;
+flex-direction: row;
+flex: 40%;
+overflow-y: hidden;
+overflow-x: auto;
+}
+
+.CardBody{
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px 15px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.CardBody img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.CardBody p{
+    color: #979292;
+}
+
+@media screen and (max-width: 1020px){
+    
+.CardBody{
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px 15px;
+    padding: 30px;
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.CardBody p{
+    color: #979292;
+    font-size: 12px;
+    text-align: start;
+}
+}

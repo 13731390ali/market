@@ -1,0 +1,100 @@
+
+.Sectionss{
+    min-height: 40vh;
+    margin-top: 6.7rem;
+}
+.backround{
+    background-color: #21aa58!important;
+    margin: 0;
+    color: #fff;
+    padding-right: 14rem;
+    padding-top: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.style-img{
+    width: 100%;
+}
+
+.style-img img{
+    width: 100%;
+   
+}
+.backround input{
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+}
+
+.backround input:focus{
+    outline: none;
+}
+.backround .butt1{
+    border: none;
+    background-color: #fff;
+    color:#21aa58;
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+.butt2{
+    margin-top: 20px;
+}
+
+.butt2 button{
+background-color: inherit;
+color: #fff;
+border: 1px solid ;
+width: 16rem;
+border-radius: 5px;
+padding: 12px;
+}
+
+
+
+
+@media screen and (min-width: 1020px) {
+
+    .style-respons{
+             display:none ;
+     }
+ 
+ }
+ 
+ @media screen and (max-width: 1020px) {
+ 
+    .Sectionss{
+        margin-top: 0;
+    }
+    .backround{
+        padding:10px 12px ;
+        margin-top:2rem;
+        text-align: center;
+    }
+
+    .col-backround{
+        display: flex;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+.backround .butt1{
+    display:none;
+}
+.backround input{
+    display: none;
+}
+  .hero-image{
+    display: none;
+  }
+   .butt2 button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+   }
+   
+ }
